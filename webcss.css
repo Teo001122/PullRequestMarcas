@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  .cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  .menu ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+  }
+  
+  .menu li {
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .contenido {
+    background-image: url('Fondo.jpg');
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .jugadores {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .jugador {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 300px;
+    border-radius: 3px;
+    text-align: center;
+  }
+
+  .jugador img{
+    height: 50px;
+    width: 50px;
+  }
+
+  .fotosjugadores {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .fotosjugadores img {
+    width: 200px;
+    height: 220px;
+    transition: transform 0.2s;
+  }
+  
+  .otros {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  
+  .otro {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .otro img{
+    height: 250px;
+    width: 250px;
+  }
+
+
+  .pie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+  
+  .pie .redes {
+    display: flex;
+    gap: 20px;
+  }
+
+  .pie .redes img {
+    width: 40px;
+    height: 40px;
+  }
+  
+
+   .fotosjugadores img {
+    width: 200px;
+    height: 200px;
+  }
